@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    top: 0;
+}
+
+.nav-wrapper {
+    max-width: 1300px;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navelements {
+    display: flex;
+    align-items: center;
+}
+
+.navelements a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.navelements a:hover {
+    color: #ff8c00;
+}
+
+.konto {
+    display: flex;
+    align-items: center;
+}
+
+.zaloguj,
+.wyloguj {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.zaloguj:hover
